@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
     if smallest_value && smallest_item = nil
       smallest_value = value
       smallest_item = key
+    end
     
     if value < smallest_value do
       smallest_value = value
